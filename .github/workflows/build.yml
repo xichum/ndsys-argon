@@ -7,7 +7,6 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # 默认使用仓库名，但你可以在这里硬编码你想要的镜像名
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
