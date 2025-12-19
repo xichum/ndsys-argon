@@ -1,0 +1,21 @@
+{
+  "name": "komaholo-argo",
+  "version": "0,0,1",
+  "description": "Thsi is a komaholo project",
+  "main": "index.js",
+  "author": "Prince",
+  "repository": "",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
